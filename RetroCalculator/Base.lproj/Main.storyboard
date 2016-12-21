@@ -48,7 +48,7 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="Wwi-8p-cDT">
-                                <rect key="frame" x="62" y="135" width="250" height="364"/>
+                                <rect key="frame" x="62" y="135" width="250" height="441"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="IeE-QX-lRh">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="56"/>
@@ -240,6 +240,21 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Lkh-bI-DSy">
+                                        <rect key="frame" x="0.0" y="385" width="250" height="56"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfZ-Sd-QvC">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="56"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="Ud9-AD-XKz"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="clear"/>
+                                                <connections>
+                                                    <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cr1-ra-M5L"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2500" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-jj-dhV">
@@ -292,6 +307,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
